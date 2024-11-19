@@ -1,0 +1,47 @@
+body {
+  font-family: sans-serif;
+  background-color: #1c1c1c;
+  color: white;
+  background-size: cover ;
+}
+
+.btn {
+  background-color: transparent;
+  color: white;
+  font-size: 30px;
+  border: none;
+  cursor: pointer;
+}
+
+.controls {
+  display: flex;
+  justify-content: center 
+}
+
+.btn:hover {
+  color: #00ff00;
+}
+
+.playing {
+  display:flex;
+  align-items: center ;
+  justify-content: center;
+  text-align: center;
+}
+.bro{
+  position: absolute;
+  display:flex;
+  align-self: center;
+  
+}
+.bro{
+  position:absolute;
+  top:-7%;
+  z-index: -5;
+  height: 100%;
+  width:100%;
+  object-fit:cover;
+  background:url('/3d-rendered-anime-boy-with-headphones-listening-music-with-golden-hour-sunset-background_1066261-68425.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+}
